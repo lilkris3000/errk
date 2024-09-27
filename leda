@@ -106,7 +106,42 @@ for i, v in pairs(game.Players.LocalPlayer.Character["Left Leg"]:GetDescendants(
             end
         end
 
+for i, v in pairs(game.Players.LocalPlayer.Character["Right Arm"]:GetDescendants()) do
+            if v:IsA("PointLight") then
+                v.Enabled = false
+            end
+        end
+for i, v in pairs(game.Players.LocalPlayer.Character["Right Leg"]:GetDescendants()) do
+            if v:IsA("PointLight") then
+                v.Enabled = false
+            end
+        end
+
+for i, v in pairs(game.Players.LocalPlayer.Character["Left Arm"]:GetDescendants()) do
+            if v:IsA("PointLight") then
+                v.Enabled = false
+            end
+        end
+
 for i, v in pairs(game.Players.LocalPlayer.Character["Left Leg"]:GetDescendants()) do
+            if v:IsA("PointLight") then
+                v.Enabled = false
+            end
+        end
+
+for i, v in pairs(game.Players.LocalPlayer.Character.Torso:GetDescendants()) do
+            if v:IsA("PointLight") then
+                v.Enabled = false
+            end
+        end
+
+for i, v in pairs(game.Players.LocalPlayer.Character.Head:GetDescendants()) do
+            if v:IsA("PointLight") then
+                v.Enabled = false
+            end
+        end
+
+for i, v in pairs(game.Players.LocalPlayer.Character.HumanoidRootPart:GetDescendants()) do
             if v:IsA("PointLight") then
                 v.Enabled = false
             end
