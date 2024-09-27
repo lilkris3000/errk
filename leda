@@ -105,3 +105,9 @@ for i, v in pairs(game.Players.LocalPlayer.Character["Left Leg"]:GetDescendants(
                 v.Enabled = false
             end
         end
+
+for i, v in pairs(game.Players.LocalPlayer.Character["Left Leg"]:GetDescendants()) do
+            if v:IsA("PointLight") then
+                v.Enabled = false
+            end
+        end
